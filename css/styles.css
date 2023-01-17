@@ -550,8 +550,6 @@ background-color:var(--accent-color)
 /* -------------ПОСТОЯННЫЕ КЛИЕНТЫ------------ */
 
 .clients-title{
-    display: flex;
-    justify-content: center;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -573,13 +571,15 @@ background-color:var(--accent-color)
 
 }
 .clients-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #AFB1B8;
     width: 170px;
     height: 92px;
     border-radius: 4px;
     padding: 16px 32px;
     fill: var(--color-clients);
-    display: block;
 }
 
 
